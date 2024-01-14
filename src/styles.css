@@ -24,6 +24,7 @@ body {
 .header--title {
     font-size: 1.25rem;
     margin-right: auto;
+    
 }
 
 .form{
@@ -31,6 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
+
 }
 .form-input{
     margin: 20px;
@@ -39,6 +41,7 @@ body {
     width: 250px;
     border: rgb(192, 192, 192) solid;
     border-width: 1.5px;
+    text-indent: 5px;
 }
 .form-button-div{
     display: flex;
@@ -48,7 +51,7 @@ body {
 .form-button{
     border-radius: 8px;
     border: none;
-    width: 100%;
+    width: 94%;
     height: 100%;
     padding: 14px 28px;
     font-size: 16px;
@@ -56,4 +59,14 @@ body {
     text-align: center;
     color: white;
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    font-family: "Karla", sans-serif;
+}
+.memeImage{
+    max-width: 500px;
+    max-height: 500px;
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
