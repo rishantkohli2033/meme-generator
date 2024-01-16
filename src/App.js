@@ -1,11 +1,11 @@
 import Header from "./Header"
-import Form from "./Meme"
+import MemeForm from "./Meme"
 
 function App() {
   return (
     <div>
       <Header />
-      <Form/>
+      <MemeForm/>
     </div>
   );
 }
