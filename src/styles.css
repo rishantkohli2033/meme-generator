@@ -42,6 +42,8 @@ body {
     border: rgb(192, 192, 192) solid;
     border-width: 1.5px;
     text-indent: 5px;
+    word-wrap: break-word;
+    overflow: hidden;
 }
 .form-button-div{
     display: flex;
@@ -65,20 +67,26 @@ body {
 
 .meme {
     position: relative;
+    display: flex;
+    text-align: center;
 }
 
 .meme--image {
-    max-width: 100%;
+    /* max-width: 100%; */
+    height: auto;
+    max-height: 600px;
+    width: auto;
+    max-width: 600px;
     border-radius: 3px;
     
 }
 
 .meme--text {
-    position: absolute;
-    width: fit-content;
+    position:absolute;
     text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
+    width: fit-content;
+    /* left: 50%;
+    transform: translateX(-50%); */
     margin: 15px 0;
     padding: 0 5px;
     font-family: impact, sans-serif;
@@ -111,7 +119,7 @@ canvas{
     height: 100%;
     
 }
-.visuallyhidden {
+/* .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -120,4 +128,4 @@ canvas{
     padding: 0;
     position: absolute;
     width: 1px;
-}
+} */

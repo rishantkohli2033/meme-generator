@@ -6,10 +6,6 @@ function App() {
     <div>
       <Header />
       <MemeForm/>
-      
-      
-      
-      
     </div>
   );
 }
